@@ -1,11 +1,11 @@
 {
-    "name": "launchlunch",
-    "short_name": "launchlunch",
-    "start_url": ".",
+    "name": "한입두입",
+    "short_name": "한입두입",
+    "start_url": "/hanipdoip/",
     "display": "standalone",
     "background_color": "#FFFFFF",
     "theme_color": "#9C27B0",
-    "description": "A new Flutter project.",
+    "description": "급식 재료 수집 게임 - 한입두입",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
