@@ -88821,37 +88821,32 @@ return A.t($async$un,r)},
 afu(){var s=this.c
 s.toString
 A.fI(s,!1).KL(A.adh(new A.ari(),null,t.z))},
-adT(a,b,a0){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c=this.z
-if(c.length!==0)return
-B.b.I(c)
-s=A.ac(a0,null,t.w).w.a
+adT(a,b,c){var s,r,q,p,o,n,m,l,k,j,i,h,g,f=this.z
+if(f.length!==0)return
+B.b.I(f)
+s=A.ac(c,null,t.w).w.a
 r=s.gap()
-q=r>=600
-p=s.gYf()/r<2
+s.gYf()
 A.v("\ud83d\udcf1 \ud654\uba74 \ud06c\uae30: "+B.d.eA(s.a)+"x"+B.d.eA(s.b)+", \ucd5c\uc18c: "+B.d.eA(r)+"dp")
-A.v("\ud83d\udcf1 \ub514\ubc14\uc774\uc2a4 \ud310\ubcc4: "+(q?"\ud0dc\ube14\ub9bf":"\ubaa8\ubc14\uc77c")+" (\ucd5c\uc18c\ud06c\uae30 >= 600dp)")
-o=q&&p
-n=o?32:16
-s=o?"\ud0dc\ube14\ub9bf":"\ubaa8\ubc14\uc77c"
-A.v("\ud83c\udfaf \ubaa9\ud45c \ud30c\ud2f0\ud074 \uc218: "+n+"\uac1c ("+s+")")
-m=A.dn(this.y,!0,t.N)
-B.b.a0U(m,B.cW)
-l=A.ew(m,0,A.k2(n,"count",t.S),A.Z(m).c).da(0)
-k=0
-j=0
-while(!0){s=c.length
-if(!(s<n&&k<2000))break;++k
-i=o?120:80
-s=2*i
-h=i+B.cW.ro()*(a-s)
-g=i+B.cW.ro()*(b-s)
-s=c.length
-e=0
-while(!0){if(!(e<c.length)){f=!1
-break}d=c[e]
-if(Math.sqrt(Math.pow(h-d.a,2)+Math.pow(g-d.b,2))<(i+d.e)/2+10){f=!0
-break}c.length===s||(0,A.D)(c);++e}if(!f){c.push(new A.uP(h,g,(B.cW.ro()-0.5)*150,(B.cW.ro()-0.5)*150,i,l[j]));++j}}c=o?"\ud0dc\ube14\ub9bf":"\ubaa8\ubc14\uc77c"
-A.v("\ud83c\udfae \ud30c\ud2f0\ud074 \uc0dd\uc131 \uc644\ub8cc: "+s+"\uac1c ("+c+")")},
+A.v("\ud83d\udcf1 \ub514\ubc14\uc774\uc2a4 \ud310\ubcc4: "+(r>=600?"\ud0dc\ube14\ub9bf":"\ubaa8\ubc14\uc77c")+" (\ucd5c\uc18c\ud06c\uae30 >= 600dp)")
+A.v("\ud83c\udfaf \ubaa9\ud45c \ud30c\ud2f0\ud074 \uc218: 64\uac1c (\uc6f9)")
+q=A.dn(this.y,!0,t.N)
+B.b.a0U(q,B.cW)
+p=A.ew(q,0,A.k2(64,"count",t.S),A.Z(q).c).da(0)
+s=a-200
+o=b-200
+n=0
+m=0
+while(!0){l=f.length
+if(!(l<64&&n<2000))break;++n
+k=100+B.cW.ro()*s
+j=100+B.cW.ro()*o
+l=f.length
+h=0
+while(!0){if(!(h<f.length)){i=!1
+break}g=f[h]
+if(Math.sqrt(Math.pow(k-g.a,2)+Math.pow(j-g.b,2))<(100+g.e)/2+10){i=!0
+break}f.length===l||(0,A.D)(f);++h}if(!i){f.push(new A.uP(k,j,(B.cW.ro()-0.5)*150,(B.cW.ro()-0.5)*150,100,p[m]));++m}}A.v("\ud83c\udfae \ud30c\ud2f0\ud074 \uc0dd\uc131 \uc644\ub8cc: "+l+"\uac1c (\uc6f9)")},
 l(){var s=this,r=s.d
 r===$&&A.a()
 r.l()
