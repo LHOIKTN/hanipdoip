@@ -1,7 +1,7 @@
 {
     "name": "launchlunch",
     "short_name": "launchlunch",
-    "start_url": ".",
+    "start_url": "/hanipdoip/",
     "display": "standalone",
     "background_color": "#FFFFFF",
     "theme_color": "#9C27B0",
